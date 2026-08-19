@@ -1,0 +1,58 @@
+:root {
+  /* Warm Charcoal + Cream + Soft Lime Palette */
+  --bg-dark: #211F1F;
+  --bg-dark-elevated: #353333;
+  --bg-card: #302E2E;
+  --bg-card-hover: #383636;
+  --bg-card-header: #292727;
+  --bg-code: #181717;
+  
+  /* Primary Soft Lime Accent */
+  --accent-lime: #C3EDA1;
+  --accent-lime-hover: #D2F7B5;
+  --accent-lime-dark: #A1D37A;
+  --accent-glow: rgba(195, 237, 161, 0.12);
+  --accent-glow-strong: rgba(195, 237, 161, 0.22);
+  
+  /* Legacy alias mapped to Soft Lime for strict component backwards compatibility */
+  --accent-amber: #C3EDA1;
+  --accent-amber-light: #D2F7B5;
+  --accent-amber-dark: #A1D37A;
+  
+  /* Auxiliary Technical Accents */
+  --accent-emerald: #C3EDA1;
+  --accent-blue: #A1C5ED;
+  --accent-purple: #D7A1ED;
+  
+  /* Borders & Dividers */
+  --border-subtle: #383636;
+  --border-medium: #454343;
+  --border-accent: rgba(195, 237, 161, 0.35);
+  
+  /* Text Colors (Cream + Warm Gray) */
+  --text-primary: #FFFCEC;
+  --text-secondary: #C8C5BA;
+  --text-muted: #8F8D87;
+  --text-accent: #C3EDA1;
+  
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Plus Jakarta Sans', 'Syne', sans-serif;
+  --font-serif-italic: 'Playfair Display', Georgia, serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  
+  /* Spacing */
+  --container-max-width: 1240px;
+  --header-height: 72px;
+  
+  /* Surfaces & Glassmorphism */
+  --glass-bg: rgba(33, 31, 31, 0.88);
+  --glass-border: #383636;
+  --card-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+  --glow-shadow: 0 0 40px -10px rgba(195, 237, 161, 0.15);
+  
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s ease;
+  --transition-slow: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
