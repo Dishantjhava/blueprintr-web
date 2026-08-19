@@ -1,5 +1,9 @@
 # Engineering Decisions
 
+**Live Demo:** https://blueprintr-web.vercel.app  
+**GitHub:** https://github.com/Dishantjhava/blueprintr-web
+
+
 ## 1. Why this approach?
 
 **React + Vite** — Fast dev server, hot reload, and a clean module-based component structure. For a landing page this size, Vite's startup time and build output are practical with no overhead.

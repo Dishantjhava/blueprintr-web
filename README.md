@@ -73,8 +73,8 @@ npm run build
 
 ## Live Demo
 
-[Live Demo](ADD_VERCEL_URL_HERE)
+[Live Demo](https://blueprintr-web.vercel.app)
 
 ## GitHub
 
-[GitHub Repository](ADD_GITHUB_URL_HERE)
+[GitHub Repository](https://github.com/Dishantjhava/blueprintr-web)
