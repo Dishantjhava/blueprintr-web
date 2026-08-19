@@ -1,0 +1,33 @@
+.shuffle-parent {
+  display: inline-block;
+  white-space: nowrap;
+  will-change: transform;
+  line-height: 1;
+  font-family: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  text-transform: uppercase;
+  position: relative;
+  user-select: none;
+}
+
+.shuffle-char-strip {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+  position: relative;
+}
+
+.shuffle-char-inner {
+  display: inline-block;
+  white-space: nowrap;
+  will-change: transform;
+  transition: transform var(--shuffle-duration, 0.35s) cubic-bezier(0.16, 1, 0.3, 1), color 0.35s ease;
+}
+
+.shuffle-char {
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+}
