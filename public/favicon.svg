@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <!-- Rounded Charcoal Background Card -->
+  <rect width="64" height="64" rx="16" fill="#211F1F" stroke="#454343" stroke-width="2"/>
+  
+  <!-- Ambient Soft Lime Glow Circle -->
+  <circle cx="32" cy="32" r="18" fill="#C3EDA1" fill-opacity="0.15"/>
+  
+  <!-- CPU Microchip Body -->
+  <rect x="20" y="20" width="24" height="24" rx="5" fill="#292727" stroke="#C3EDA1" stroke-width="2"/>
+  
+  <!-- Microchip Inner Die -->
+  <rect x="26" y="26" width="12" height="12" rx="2" fill="#C3EDA1"/>
+  
+  <!-- CPU Connector Pins (Top) -->
+  <path d="M26 14v4M32 14v4M38 14v4" stroke="#C3EDA1" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- CPU Connector Pins (Bottom) -->
+  <path d="M26 46v4M32 46v4M38 46v4" stroke="#C3EDA1" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- CPU Connector Pins (Left) -->
+  <path d="M14 26h4M14 32h4M14 38h4" stroke="#C3EDA1" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- CPU Connector Pins (Right) -->
+  <path d="M46 26h4M46 32h4M46 38h4" stroke="#C3EDA1" stroke-width="2" stroke-linecap="round"/>
+</svg>
